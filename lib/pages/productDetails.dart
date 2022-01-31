@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:e_commerce_app_1/components/products.dart';
 import 'package:e_commerce_app_1/main.dart';
+import 'package:e_commerce_app_1/pages/homePage.dart';
 
 class ProductDetails extends StatefulWidget {
 
@@ -19,6 +20,7 @@ class _ProductDetailsState extends State<ProductDetails> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //Comment
       appBar: AppBar(
         backgroundColor: Colors.red,
         elevation: 0.1,
